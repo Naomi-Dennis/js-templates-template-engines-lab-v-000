@@ -11,7 +11,7 @@
   //   })
 function createPost(){
    console.log("Test")
-  let page_template = "<div id='page-template'><nav id='sidebar'></nav><p id='post'></p></div>"
+  let page_template = "<div id='page-template'></div>"
   let page_template_foo = _.template(page_template)
   
   let post_template = "<div id='post-template'></div>"
