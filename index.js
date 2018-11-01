@@ -10,7 +10,7 @@
   //     })
   //   })
 function createPost(){
-  let page_template = document.getElementById("post-template").innerHTML
+  let page_template = document.getElementById("page-template").innerHTML
   let page_template_foo = _.template(page_template)
   
   let post_template = "<div id='post-template'></div>"
