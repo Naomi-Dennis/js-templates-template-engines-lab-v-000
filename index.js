@@ -17,7 +17,7 @@ function createPost(){
   let post_template = "<div id='post-template'></div>"
   let post_template_foo = _.template(post_template)
   
-  document.body.innerHTML += page_template_foo()
-  document.getElementById("post-form").innerHTML += post_template_foo()
+  //document.getElementById("post-form").innerHTML += page_template_foo()
+  //document.getElementById("post-form").innerHTML += post_template_foo()
   
 }
