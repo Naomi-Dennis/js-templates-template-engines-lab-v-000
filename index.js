@@ -11,7 +11,7 @@
   //   })
 function createPost(){
    console.log("Test")
-  let template_data = "<div id='page-template'></div>"
+  let template_data = "<div id='page-template'><div id='post-template'></div></div>"
   let template_foo = _.template(template_data)
   
   document.getElementById("post-form").innerHTML += template_foo()
